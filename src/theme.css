@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  /* Swiss Editorial Palette */
+  --background: #0D0E0D; /* Deep Charcoal */
+  --foreground: #E8E4DF; /* Bone White */
+  --primary: #9BA495;    /* Sage Slate */
+  --primary-foreground: #0D0E0D;
+  --secondary: #1A1C1A;  /* Off-Black */
+  --secondary-foreground: #E8E4DF;
+  --muted: #141614;
+  --muted-foreground: #70756C;
+  --accent: #D1D5DB;
+  --accent-foreground: #000000;
+    --border: rgba(155, 164, 149, 0.15);
+  --card: #111311;
+  --card-foreground: #E8E4DF;
+  --input: rgba(255, 255, 255, 0.05);
+  --ring: #9BA495;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-size-base: 16px;
+  --heading-weight: 700;
+  --body-weight: 300;
+  --letter-spacing: -0.01em;
+  --line-height: 1.7;
+
+  /* Layout */
+  --radius: 0rem; /* Sharp, architectural edges for Swiss feel */
+  --spacing: 0.25rem;
+  --border-width: 1px;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.5);
+  --shadow-md: 0 8px 16px rgba(0,0,0,0.5);
+  --shadow-lg: 0 20px 40px rgba(0,0,0,0.6);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: var(--line-height);
+  overflow-x: hidden;
+}
+
+.premium-gradient {
+  background: linear-gradient(135deg, rgba(28, 43, 36, 1) 0%, rgba(14, 20, 17, 1) 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 0 40px rgba(197, 160, 89, 0.1);
+}
+
+.text-reveal {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
